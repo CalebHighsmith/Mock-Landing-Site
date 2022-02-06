@@ -1,3 +1,7 @@
+
+body,html {
+    margin: 0;
+}
 header {
     color: #FFFFFF;
     background-color: #284b63;
@@ -24,9 +28,9 @@ footer {
     background: #353535;  
     padding: 32px 0;
     text-align: center;
-    color: #868686;      
-
+    color: #868686;   
 }
+
 
 h1 {
     font-size: 48px;
@@ -44,6 +48,7 @@ h2 {
     margin: 0 auto;
     padding: 0 20px 0 20px;
     max-width: 900px;
+    min-height: calc(100vh - 321px - 119px);
 }
 
 .btn {
