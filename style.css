@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Bebas_Neue;
+    src: url('BebasNeue-Regular.ttf');
+}
+
+p {
+    font-family: Bebas_Neue;
+}
+
+a {
+    font-family: Bebas_Neue;
+}
 
 body,html {
     margin: 0;
